@@ -16,4 +16,5 @@ https://github.com/GitNinja0/The-Crew
 <p>David Colunga :white_check_mark:</p>
 
 
+![giphy](https://github.com/GitNinja0/The-Crew/assets/144242776/ec368da6-21ab-47fe-adee-a31fe5395f58)
 
