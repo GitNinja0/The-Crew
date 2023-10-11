@@ -2,3 +2,16 @@
 @import './login.css';
 @import 'elements.css';
 @import 'banner.css';
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
