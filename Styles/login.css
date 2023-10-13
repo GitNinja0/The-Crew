@@ -1,0 +1,86 @@
+.login{
+  max-width: 100%;
+  height: 55rem;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  
+}
+.login{
+    background-size: cover;
+    background-image: url(../assets/luna.jpg)
+}
+.boxLogin{
+    width: 45rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(20, 20, 20);
+    border-radius: 10%;
+    background-color: rgba(157, 219, 255, 0.575)
+    
+
+    
+
+}
+.boxUser{
+    width: 35rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(255, 255, 255);
+
+}
+.boxPass{
+    width: 35rem;
+    height: 3rem;
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border: 1px solid rgb(255, 255, 255);
+    
+}
+.forgotPass{
+    margin-left: 3rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: aliceblue;
+}
+.loginButton{
+    margin-left: 3rem;
+    width: 5rem;
+    height: 3rem;
+    border-radius: 20%;
+    font-size: 1.2rem;
+    font-family: 'Pacifico', cursive;
+    
+
+}
+.containBoxPass{
+    padding-right: 13rem;
+
+}
+.containBoxUser{
+    padding-right: 13rem;
+}
+.iconUser{
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+}
+.iconPass{
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+
+}
+.newAdventure{
+    color: aliceblue;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 2rem;
+text-align: center;
+}
