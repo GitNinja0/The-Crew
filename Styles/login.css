@@ -21,6 +21,7 @@
     border-radius: 40px;
     background-color: rgba(157, 219, 255, 0.575)
     
+    
 
     
 
@@ -33,6 +34,7 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
 
 }
 .boxPass{
@@ -44,6 +46,7 @@
     justify-content: space-between;
     margin-top: 1rem;
     border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
     
 }
 .forgotPass{
@@ -52,6 +55,10 @@
     padding-bottom: 1rem;
     color: aliceblue;
 }
+.forgotPass:hover{
+    color: blue;
+}
+
 .loginButton{
     margin-left: 3rem;
     width: 5rem;
@@ -60,10 +67,12 @@
     font-size: 1.2rem;
     font-family: 'Pacifico', cursive;
     
+    
 
 }
 .containBoxPass{
     padding-right: 13rem;
+    
 
 }
 .containBoxUser{
