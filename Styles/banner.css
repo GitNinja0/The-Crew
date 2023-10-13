@@ -1,72 +1,12 @@
 @import 'styles.css';
 
-/*.banner{
+.banner{
     background-image: url("../assets/banner.png");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    max-width: 100%;
-}*/
-.nav{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-}
-.nav_div{
-    display: grid;
-    justify-content: space-between;
-    justify-items: center;
-}
-.img{
-    width: 70%;
-    height: auto;
-    border-radius: 50%;
-}
-h2{
-    font-size: 3rem;
-    font-weight: 900;
-}
-.palabra{
-    font-size: 2rem;
-    background-color: grey;
-    padding: 2rem 4rem;
-    border-radius: 2rem;
+    width: 100%;
+    height: 50%;
 }
 
-.footer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-    align-items: center;
-    background-color: #001F54;
-    color: white;
-    font-size: 2rem;
-}
-.aling_footer{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    justify-items: end;
-}
-.img_section{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-}
-.img_size{
-    max-width: 5%;
-    max-height: auto;
-}
-
-@-webkit-keyframes tiembla{
-    0%  { -webkit-transform:translate(0px, 0px); }
-    25%  { -webkit-transform:translate(20px, 0px); }
-    50% { -webkit-transform:translate(0px, 0px ); }
-    75%  { -webkit-transform:translate(20px, 0px); }
-    100%{ -webkit-transform:translate(0px, 0px ); }
-  }
-
-.tiembla:hover{
-    -webkit-animation:tiembla 0.5s 10;
-}  

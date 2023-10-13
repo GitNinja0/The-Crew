@@ -2,6 +2,8 @@
 @import './login.css';
 @import 'elements.css';
 @import 'banner.css';
+@import 'animations.css';
+@import 'creator.css';
 
 html {
     box-sizing: border-box;
