@@ -3,6 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
+    justify-items: center;
 }
 .nav_div{
     display: grid;
@@ -10,8 +11,8 @@
     justify-items: center;
 }
 .img{
-    width: 70%;
-    height: auto;
+    width: 30rem;
+    height: 30rem;
     border-radius: 50%;
 }
 h2{
