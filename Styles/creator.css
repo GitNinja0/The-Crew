@@ -46,6 +46,12 @@ h2{
     align-items: center;
 }
 .img_size{
-    max-width: 5%;
+    max-width: 50%;
     max-height: auto;
+}
+.a_size{
+    display: flex;
+    justify-content: center;
+    max-width: 10%;
+    height: auto;
 }
