@@ -8,8 +8,8 @@
     
 }
 img{
-    width: 180px;
-    height: 150px;
+    width: 90px;
+    height: 80px;
     padding-top: 0.8rem;
     
     
@@ -20,15 +20,8 @@ img{
 }
 .tittleHeader{
     color: white;
-    font-size: 2.7rem;
+    font-size: 3rem;
     font-family: 'Shadows Into Light', cursive;
-    
-    
-    
-   
-    
-    
-
 }
 .subTittle{
     color: white;
@@ -47,4 +40,17 @@ img{
     display: grid;
     align-items: center;
     margin-right: 40px;
+}
+.rotate-linear-infinite{
+
+        animation: rotation 15s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
