@@ -1,0 +1,14 @@
+@import 'normalize.css';
+@import './header.css';
+@import './login.css';
+@import 'elements.css';
+@import 'banner.css';
+@import 'animations.css';
+@import 'creator.css';
+
+
+body{
+    max-width: 100%;
+    max-height: 100%;
+    
+}
